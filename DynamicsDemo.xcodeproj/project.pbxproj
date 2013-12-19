@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D62E1C051862CC9D00CF788E /* SnapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D62E1C041862CC9D00CF788E /* SnapViewController.m */; };
+		D62E1C081862D05400CF788E /* AttachmentSnapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D62E1C071862D05300CF788E /* AttachmentSnapViewController.m */; };
+		D62E1C0A1862D7B200CF788E /* slimeb.png in Resources */ = {isa = PBXBuildFile; fileRef = D62E1C091862D7B200CF788E /* slimeb.png */; };
 		D6E998F918601970001F29C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E998F818601970001F29C1 /* Foundation.framework */; };
 		D6E998FB18601970001F29C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E998FA18601970001F29C1 /* CoreGraphics.framework */; };
 		D6E998FD18601970001F29C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E998FC18601970001F29C1 /* UIKit.framework */; };
@@ -25,7 +28,6 @@
 		D6E9993818603218001F29C1 /* slime.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E9993718603218001F29C1 /* slime.png */; };
 		D6E9993B1860363A001F29C1 /* GravityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E9993A1860363A001F29C1 /* GravityViewController.m */; };
 		D6E9993E18603B1C001F29C1 /* GravityCollisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E9993D18603B1C001F29C1 /* GravityCollisionViewController.m */; };
-		D6E9994018603E5F001F29C1 /* drakey.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E9993F18603E5F001F29C1 /* drakey.png */; };
 		D6E99943186044F9001F29C1 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E99942186044F9001F29C1 /* PushViewController.m */; };
 		D6E999461860506B001F29C1 /* AttachmentPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E999451860506B001F29C1 /* AttachmentPushViewController.m */; };
 /* End PBXBuildFile section */
@@ -41,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D62E1C031862CC9D00CF788E /* SnapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapViewController.h; sourceTree = "<group>"; };
+		D62E1C041862CC9D00CF788E /* SnapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapViewController.m; sourceTree = "<group>"; };
+		D62E1C061862D05300CF788E /* AttachmentSnapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttachmentSnapViewController.h; sourceTree = "<group>"; };
+		D62E1C071862D05300CF788E /* AttachmentSnapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttachmentSnapViewController.m; sourceTree = "<group>"; };
+		D62E1C091862D7B200CF788E /* slimeb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slimeb.png; sourceTree = "<group>"; };
 		D6E998F518601970001F29C1 /* DynamicsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E998F818601970001F29C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D6E998FA18601970001F29C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -67,7 +74,6 @@
 		D6E9993A1860363A001F29C1 /* GravityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravityViewController.m; sourceTree = "<group>"; };
 		D6E9993C18603B1C001F29C1 /* GravityCollisionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravityCollisionViewController.h; sourceTree = "<group>"; };
 		D6E9993D18603B1C001F29C1 /* GravityCollisionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravityCollisionViewController.m; sourceTree = "<group>"; };
-		D6E9993F18603E5F001F29C1 /* drakey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drakey.png; sourceTree = "<group>"; };
 		D6E99941186044F9001F29C1 /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
 		D6E99942186044F9001F29C1 /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
 		D6E999441860506B001F29C1 /* AttachmentPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttachmentPushViewController.h; sourceTree = "<group>"; };
@@ -147,6 +153,10 @@
 				D6E99942186044F9001F29C1 /* PushViewController.m */,
 				D6E999441860506B001F29C1 /* AttachmentPushViewController.h */,
 				D6E999451860506B001F29C1 /* AttachmentPushViewController.m */,
+				D62E1C031862CC9D00CF788E /* SnapViewController.h */,
+				D62E1C041862CC9D00CF788E /* SnapViewController.m */,
+				D62E1C061862D05300CF788E /* AttachmentSnapViewController.h */,
+				D62E1C071862D05300CF788E /* AttachmentSnapViewController.m */,
 				D6E9991018601970001F29C1 /* Images.xcassets */,
 				D6E998FF18601970001F29C1 /* Supporting Files */,
 			);
@@ -185,7 +195,7 @@
 		D6E9993618603218001F29C1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D6E9993F18603E5F001F29C1 /* drakey.png */,
+				D62E1C091862D7B200CF788E /* slimeb.png */,
 				D6E9993718603218001F29C1 /* slime.png */,
 			);
 			path = Resources;
@@ -268,10 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6E9991118601970001F29C1 /* Images.xcassets in Resources */,
-				D6E9994018603E5F001F29C1 /* drakey.png in Resources */,
 				D6E9990318601970001F29C1 /* InfoPlist.strings in Resources */,
 				D6E9993818603218001F29C1 /* slime.png in Resources */,
 				D6E9990C18601970001F29C1 /* Main.storyboard in Resources */,
+				D62E1C0A1862D7B200CF788E /* slimeb.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,10 +303,12 @@
 				D6E9993E18603B1C001F29C1 /* GravityCollisionViewController.m in Sources */,
 				D6E999461860506B001F29C1 /* AttachmentPushViewController.m in Sources */,
 				D6E9990918601970001F29C1 /* AppDelegate.m in Sources */,
+				D62E1C081862D05400CF788E /* AttachmentSnapViewController.m in Sources */,
 				D6E9993518601DD2001F29C1 /* AttachmentViewController.m in Sources */,
 				D6E9992F186019B1001F29C1 /* TableViewController.m in Sources */,
 				D6E9990518601970001F29C1 /* main.m in Sources */,
 				D6E99943186044F9001F29C1 /* PushViewController.m in Sources */,
+				D62E1C051862CC9D00CF788E /* SnapViewController.m in Sources */,
 				D6E9993B1860363A001F29C1 /* GravityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,6 +518,7 @@
 				D6E9992918601970001F29C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6E9992A18601970001F29C1 /* Build configuration list for PBXNativeTarget "DynamicsDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +527,7 @@
 				D6E9992C18601970001F29C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

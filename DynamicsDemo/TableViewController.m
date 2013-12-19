@@ -12,6 +12,8 @@
 #import "GravityCollisionViewController.h"
 #import "PushViewController.h"
 #import "AttachmentPushViewController.h"
+#import "SnapViewController.h"
+#import "AttachmentSnapViewController.h"
 
 @interface TableViewController ()
 
@@ -66,6 +68,12 @@
             break;
         case 4:
             cell.textLabel.text = @"Attachment & Push";
+            break;
+        case 5:
+            cell.textLabel.text = @"Snap";
+            break;
+        case 6:
+            cell.textLabel.text = @"Attachment & Snap";
             break;
         default:
             break;
@@ -123,6 +131,16 @@
         }
         case 4: {
             AttachmentPushViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"attachment_push"];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 5: {
+            SnapViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"snap"];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 6: {
+            AttachmentSnapViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"attachment_snap"];
             [self.navigationController pushViewController:vc animated:YES];
             break;
         }

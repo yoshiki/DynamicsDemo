@@ -52,12 +52,11 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="reset:" destination="qSq-oK-uiV" eventType="touchUpInside" id="1ch-TX-28h"/>
                                     <action selector="reset:" destination="dXU-bE-MIf" eventType="touchUpInside" id="24o-Ie-ddo"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slime.png" translatesAutoresizingMaskIntoConstraints="NO" id="OYk-14-jZd">
-                                <rect key="frame" x="110" y="241" width="100" height="96"/>
+                                <rect key="frame" x="110" y="243" width="100" height="82"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8NS-gh-gSH">
@@ -90,8 +89,8 @@
                                     <action selector="startWithBoundaries:" destination="dXU-bE-MIf" eventType="touchUpInside" id="6lg-Wn-4Ar"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="drakey.png" translatesAutoresizingMaskIntoConstraints="NO" id="WEz-9J-P5b">
-                                <rect key="frame" x="45" y="384" width="116" height="76"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slimeb.png" translatesAutoresizingMaskIntoConstraints="NO" id="WEz-9J-P5b">
+                                <rect key="frame" x="45" y="384" width="100" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -125,13 +124,11 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="reset:" destination="dXU-bE-MIf" eventType="touchUpInside" id="E4J-S7-Fp7"/>
-                                    <action selector="reset:" destination="qSq-oK-uiV" eventType="touchUpInside" id="Yfo-bz-acp"/>
                                     <action selector="reset:" destination="kJY-SO-ZM3" eventType="touchUpInside" id="ddg-JG-Qet"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slime.png" translatesAutoresizingMaskIntoConstraints="NO" id="LPi-hg-4gb">
-                                <rect key="frame" x="110" y="236" width="100" height="96"/>
+                                <rect key="frame" x="110" y="243" width="100" height="82"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zw1-mH-qZ1">
@@ -142,7 +139,6 @@
                                 </state>
                                 <connections>
                                     <action selector="start:" destination="kJY-SO-ZM3" eventType="touchUpInside" id="fvb-gW-W4f"/>
-                                    <action selector="startWithEverything:" destination="dXU-bE-MIf" eventType="touchUpInside" id="6ov-OO-tq8"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -155,6 +151,33 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ge-rn-dWN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1003" y="343"/>
+        </scene>
+        <!--Attachment Snap View Controller-->
+        <scene sceneID="i7M-Fv-Dof">
+            <objects>
+                <viewController storyboardIdentifier="attachment_snap" id="Bwy-Fa-9ep" customClass="AttachmentSnapViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Sz3-Wy-jbV"/>
+                        <viewControllerLayoutGuide type="bottom" id="Z14-mP-P5x"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7L9-6y-itz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slime.png" translatesAutoresizingMaskIntoConstraints="NO" id="hPh-Oo-XLh">
+                                <rect key="frame" x="110" y="243" width="100" height="82"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="targetView" destination="hPh-Oo-XLh" id="8lt-7o-TD4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xya-sV-bhM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1003" y="1066"/>
         </scene>
         <!--Attachment Push View Controller-->
         <scene sceneID="3GS-xa-5Ur">
@@ -176,13 +199,10 @@
                                 </state>
                                 <connections>
                                     <action selector="reset:" destination="BuB-Ii-tdc" eventType="touchUpInside" id="EGg-5x-Okp"/>
-                                    <action selector="reset:" destination="dXU-bE-MIf" eventType="touchUpInside" id="NH0-xQ-WuJ"/>
-                                    <action selector="reset:" destination="qSq-oK-uiV" eventType="touchUpInside" id="eef-bT-Oah"/>
-                                    <action selector="reset:" destination="kJY-SO-ZM3" eventType="touchUpInside" id="k7g-z7-lD2"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slime.png" translatesAutoresizingMaskIntoConstraints="NO" id="0ry-ZH-IbM">
-                                <rect key="frame" x="110" y="236" width="100" height="96"/>
+                                <rect key="frame" x="110" y="243" width="100" height="82"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
@@ -195,6 +215,73 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PIg-de-OCx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1376" y="343"/>
+        </scene>
+        <!--Snap View Controller-->
+        <scene sceneID="nlF-Vv-hrG">
+            <objects>
+                <viewController storyboardIdentifier="snap" id="n8s-hl-l1B" customClass="SnapViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="96a-n5-MU2"/>
+                        <viewControllerLayoutGuide type="bottom" id="dJD-82-q2Y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="exc-g2-zAt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PBC-qm-dGg">
+                                <rect key="frame" x="140" y="269" width="40" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="reset:" destination="n8s-hl-l1B" eventType="touchUpInside" id="uhc-Xp-2Y1"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slime.png" translatesAutoresizingMaskIntoConstraints="NO" id="FXc-hw-3FR">
+                                <rect key="frame" x="110" y="243" width="100" height="82"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZl-Bh-nZs">
+                                <rect key="frame" x="96" y="96" width="128" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Start damping 0.0f">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="start00:" destination="n8s-hl-l1B" eventType="touchUpInside" id="nCn-8u-VvD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vtq-E3-k2i">
+                                <rect key="frame" x="96" y="134" width="128" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Start damping 0.5f">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="start05:" destination="n8s-hl-l1B" eventType="touchUpInside" id="ile-2h-FuA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k8D-FG-f6h">
+                                <rect key="frame" x="96" y="172" width="128" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Start damping 1.0f">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="start10:" destination="n8s-hl-l1B" eventType="touchUpInside" id="HGr-ef-Do4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="targetView" destination="FXc-hw-3FR" id="UpB-qF-MkA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x3n-rF-3gc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1759" y="343"/>
         </scene>
         <!--Attachment View Controller-->
         <scene sceneID="ywI-X7-gjc">
@@ -209,7 +296,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slime.png" translatesAutoresizingMaskIntoConstraints="NO" id="fTC-gc-j2G">
-                                <rect key="frame" x="110" y="236" width="100" height="96"/>
+                                <rect key="frame" x="110" y="243" width="100" height="82"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
@@ -286,7 +373,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slime.png" translatesAutoresizingMaskIntoConstraints="NO" id="5kP-UM-D2H">
-                                <rect key="frame" x="110" y="236" width="100" height="96"/>
+                                <rect key="frame" x="110" y="243" width="100" height="82"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
@@ -317,8 +404,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="drakey.png" width="200" height="133"/>
-        <image name="slime.png" width="200" height="191"/>
+        <image name="slime.png" width="200" height="165"/>
+        <image name="slimeb.png" width="200" height="165"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
